@@ -9,6 +9,8 @@
 } 
 body{
     height: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
   
 
 }
@@ -348,7 +350,8 @@ border-radius: 20px;
     }
 
     .info .img-box{
-        width: 100%;
+        width: 80%;
+        margin: auto;
     }
 
     .img-box img{
@@ -387,7 +390,7 @@ border-radius: 20px;
     
     .image{
         margin: 0 auto;
-        width: 100%;
+        width: 70%;
     }
     .image img{
         width: 40%;
@@ -403,12 +406,14 @@ border-radius: 20px;
         width: 100%;
         text-align: center;
         margin-top: 20px;
+        font-size: 1.5rem;
     }
     .text p{
         margin: auto;
         margin-top: 10px;
         width: 40%;
         text-align: center;
+        font-size: 16px;
     }
 
     .column{
@@ -437,7 +442,7 @@ border-radius: 20px;
     
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 767px){
     .headings{
         display: flex;
         justify-content: space-between;
@@ -491,7 +496,7 @@ border-radius: 20px;
     .img-box img{
         display: block;
         margin: auto;
-        width: 80%;
+        width: 70%;
     }
 
     .divisor{
@@ -510,7 +515,7 @@ border-radius: 20px;
     .image{
         margin: 0 auto;
 
-        width: 100%;
+        width: 70%;
     }
     .image img{
         width: 70%;
@@ -526,12 +531,14 @@ border-radius: 20px;
         width: 100%;
         text-align: center;
         margin-top: 20px;
+        font-size: 1.5rem;
     }
     .text p{
         margin: auto;
         margin-top: 10px;
         width: 80%;
         text-align: center;
+        font-size: 16px;
     }
 
     
